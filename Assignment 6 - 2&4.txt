@@ -1,0 +1,22 @@
+2.
+
+The less than operator is used in order to ensure the largest item as at the top of the queue. On insertion, all items that
+are less than the current "back" value are pushed onto the back of the queue. This causes the larger values to be towards towards
+the "front" of the queue with the very largest at the top. If the greater than operator was used, this would cause the minimum 
+value to be at the queue's top and the maximum to be at the back (which would lead to a larger runtime if removing the largest 
+value).
+
+
+4.	120
+	/ \
+       70  50 (*)
+      / \
+     40 30 (+)
+    / \
+   15 25 (-)
+  / \
+ 5  10
+(%) (/)
+
+
+6. 
